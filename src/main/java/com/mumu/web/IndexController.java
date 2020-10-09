@@ -12,6 +12,7 @@ public class IndexController {
 
     @GetMapping("/rest")
     public String rest(@RequestParam String name) {
-        return "rest456 success";
+             return "rest456 success";
+     
     }
 }
